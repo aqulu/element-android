@@ -18,7 +18,7 @@ package im.vector.app.core.date
 
 import android.text.format.DateFormat
 import im.vector.app.core.resources.LocaleProvider
-import org.threeten.bp.format.DateTimeFormatter
+import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 
 class AbbrevDateFormatterProvider @Inject constructor(private val localeProvider: LocaleProvider) : DateFormatterProvider {

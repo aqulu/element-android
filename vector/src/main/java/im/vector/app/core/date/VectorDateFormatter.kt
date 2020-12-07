@@ -22,9 +22,9 @@ import android.text.format.DateUtils
 import im.vector.app.core.resources.DateProvider
 import im.vector.app.core.resources.LocaleProvider
 import im.vector.app.core.resources.toTimestamp
-import org.threeten.bp.LocalDateTime
-import org.threeten.bp.Period
-import org.threeten.bp.format.DateTimeFormatter
+import java.time.LocalDateTime
+import java.time.Period
+import java.time.format.DateTimeFormatter
 import javax.inject.Inject
 import kotlin.math.absoluteValue
 

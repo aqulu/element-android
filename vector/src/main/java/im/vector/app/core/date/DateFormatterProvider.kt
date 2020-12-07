@@ -16,7 +16,7 @@
 
 package im.vector.app.core.date
 
-import org.threeten.bp.format.DateTimeFormatter
+import java.time.format.DateTimeFormatter
 
 interface DateFormatterProvider {
 

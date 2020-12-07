@@ -35,7 +35,6 @@ import androidx.multidex.MultiDex
 import com.airbnb.epoxy.EpoxyAsyncUtil
 import com.airbnb.epoxy.EpoxyController
 import com.facebook.stetho.Stetho
-import com.gabrielittner.threetenbp.LazyThreeTen
 import im.vector.app.core.di.ActiveSessionHolder
 import im.vector.app.core.di.DaggerVectorComponent
 import im.vector.app.core.di.HasVectorInjector
@@ -124,7 +123,6 @@ class VectorApplication :
             Stetho.initializeWithDefaults(this)
         }
         logInfo()
-        LazyThreeTen.init(this)
 
         EpoxyController.defaultDiffingHandler = EpoxyAsyncUtil.getAsyncBackgroundHandler()
         EpoxyController.defaultModelBuildingHandler = EpoxyAsyncUtil.getAsyncBackgroundHandler()

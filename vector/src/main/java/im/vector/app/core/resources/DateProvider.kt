@@ -16,9 +16,9 @@
 
 package im.vector.app.core.resources
 
-import org.threeten.bp.Instant
-import org.threeten.bp.LocalDateTime
-import org.threeten.bp.ZoneId
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
 
 object DateProvider {
 
